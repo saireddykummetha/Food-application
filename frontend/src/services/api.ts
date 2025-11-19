@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type{ Restaurant, FilterOptions } from '../types/restaurant';
 
-const API_BASE_URL = 'http://localhost:8080/api';
+const API_BASE_URL = 'https://food-application-adqr.onrender.com/api';
 
 export const api = {
   getRestaurants: async (filters: FilterOptions): Promise<Restaurant[]> => {
